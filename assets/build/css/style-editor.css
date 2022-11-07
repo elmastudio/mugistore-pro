@@ -4030,22 +4030,22 @@ li.product .button:not(.add_to_cart_button) {
   display: inline-flex;
 }
 
-.mc4wp-form-fields p input[type="submit"] {
+input[type="submit"], button[type="submit"], .primary .wp-block-button__link {
   background-color: var(--wp--preset--color--primary) !important;
   color: var(--wp--preset--color--button-color-primary) !important;
 }
 
-.mc4wp-form-fields p input[type="submit"]:hover {
+input[type="submit"]:hover, button[type="submit"]:hover, .primary .wp-block-button__link:hover {
   background-color: var(--wp--preset--color--secondary) !important;
   color: var(--wp--preset--color--button-color-primary) !important;
 }
 
-.btn-style-variant .mc4wp-form-fields p input[type="submit"] {
+.primary-variant .wp-block-button__link, .btn-style-variant input[type="submit"] {
   background-color: var(--wp--preset--color--variant-primary);
   color: var(--wp--preset--color--variant-button-color-primary);
 }
 
-.btn-style-variant .mc4wp-form-fields p input[type="submit"]:hover {
+.primary-variant .wp-block-button__link:hover, .btn-style-variant input[type="submit"]:hover {
   background-color: var(--wp--preset--color--variant-secondary) !important;
   color: var(--wp--preset--color--variant-button-color-primary) !important;
 }
@@ -4094,6 +4094,31 @@ li.product .button:not(.add_to_cart_button) {
   background-color: var(--wp--preset--color--variant-neutral-primary) !important;
   color: var(--global--color--dark) !important;
   fill: var(--global--color--dark) !important;
+}
+
+.button-neutral-primary a {
+  background-color: var(--wp--preset--color--neutral-secondary);
+  color: var(--global--color--light) !important;
+  fill: var(--global--color--light) !important;
+}
+
+.button-neutral-primary a:hover {
+  background-color: var(--wp--preset--color--neutral-primary) !important;
+}
+
+.button-neutral-primary-variant a {
+  background-color: var(--wp--preset--color--variant-neutral-secondary);
+  color: var(--global--color--dark);
+  fill: var(--global--color--dark);
+}
+
+.button-neutral-primary-variant a:hover {
+  background-color: var(--wp--preset--color--variant-neutral-primary) !important;
+}
+
+.button-neutral-primary-variant a:active, .button-neutral-primary-variant a:visited, .button-neutral-primary-variant a:focus, .button-neutral-primary-variant a:hover {
+  color: var(--global--color--dark);
+  fill: var(--global--color--dark);
 }
 
 .is-style-outline, .is-style-outline__variant, .outlined, .is-style-neutral-outline, .is-style-neutral-outline__variant {
@@ -4190,23 +4215,6 @@ li.product .button:not(.add_to_cart_button) {
 .is-style-text .wp-block-ainoblocks-button__link, .is-style-text__variant .wp-block-ainoblocks-button__link, .is-style-neutral-text .wp-block-ainoblocks-button__link, .is-style-neutral-text__variant .wp-block-ainoblocks-button__link {
   line-height: var(--wp--custom--line-height--body);
   padding: 0 !important;
-}
-
-.is-style-text .wp-block-ainoblocks-button__link:after, .is-style-text__variant .wp-block-ainoblocks-button__link:after, .is-style-neutral-text .wp-block-ainoblocks-button__link:after, .is-style-neutral-text__variant .wp-block-ainoblocks-button__link:after {
-  content: "";
-  width: 0;
-  height: 1px;
-  background: currentColor;
-  transition: all .2s;
-  display: block;
-}
-
-.is-style-text .wp-block-ainoblocks-button__link:hover:after, .is-style-text__variant .wp-block-ainoblocks-button__link:hover:after, .is-style-neutral-text .wp-block-ainoblocks-button__link:hover:after, .is-style-neutral-text__variant .wp-block-ainoblocks-button__link:hover:after {
-  width: 100%;
-}
-
-.is-style-text .wp-block-ainoblocks-button__link:after, .is-style-text .wp-block-ainoblocks-button__link:active:after, .is-style-text__variant .wp-block-ainoblocks-button__link:after, .is-style-text__variant .wp-block-ainoblocks-button__link:active:after, .is-style-neutral-text .wp-block-ainoblocks-button__link:after, .is-style-neutral-text .wp-block-ainoblocks-button__link:active:after, .is-style-neutral-text__variant .wp-block-ainoblocks-button__link:after, .is-style-neutral-text__variant .wp-block-ainoblocks-button__link:active:after {
-  transform: scaleX(1);
 }
 
 .is-style-text {
