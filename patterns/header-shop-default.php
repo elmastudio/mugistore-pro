@@ -48,14 +48,14 @@
 <div class="wp-block-ainoblocks-flex-item auto" style="flex-grow:1;flex-basis:0px"><!-- wp:ainoblocks/flexbox {"flexWrapTablet":"nowrap__t","flexWrapMobile":"nowrap__m","justifyContentDesktop":"justify__flexend__d","justifyContentTablet":"justify__flexend__t","justifyContentMobile":"justify__flexend__m","alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m","paddingLeft":0} -->
 <div class="wp-block-ainoblocks-flexbox direction__row__d direction__row__t direction__row__m nowrap__d nowrap__t nowrap__m justify__flexend__d justify__flexend__t justify__flexend__m align-items__center__d align-items__center__t align-items__center__m align-cont__stretch__d align-cont__stretch__t align-cont__stretch__m shadow-none"><!-- wp:woocommerce/product-search {"hasLabel":false,"formId":"wc-block-product-search-1","className":"form-rounded mobile-hide desktop-show"} /-->
 
-<!-- wp:ainoblocks/flex-item {"alignSelfDesktop":"align__ flexend__d","paddingLeft":7} -->
-<div class="wp-block-ainoblocks-flex-item align__ flexend__d auto pl__7"><!-- wp:navigation {"overlayMenu":"never"} /--></div>
+<!-- wp:ainoblocks/flex-item {"alignSelfDesktop":"align__ flexend__d","paddingLeft":4} -->
+<div class="wp-block-ainoblocks-flex-item align__ flexend__d auto pl__4"><!-- wp:navigation {"overlayMenu":"never"} /--></div>
 <!-- /wp:ainoblocks/flex-item -->
 
 <!-- wp:woocommerce/mini-cart {"textColor":"font-primary"} /-->
 
-<!-- wp:ainoblocks/flex-item {"alignSelfDesktop":"align__ flexend__d","className":"desktop-hide","paddingLeft":7} -->
-<div class="wp-block-ainoblocks-flex-item align__ flexend__d auto desktop-hide pl__7"><!-- wp:navigation {"overlayMenu":"always","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"fontSize":"text-xs"} /--></div>
+<!-- wp:ainoblocks/flex-item {"alignSelfDesktop":"align__ flexend__d","className":"desktop-hide","paddingLeft":4} -->
+<div class="wp-block-ainoblocks-flex-item align__ flexend__d auto desktop-hide pl__4"><!-- wp:navigation {"overlayMenu":"always","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"fontSize":"text-xs"} /--></div>
 <!-- /wp:ainoblocks/flex-item --></div>
 <!-- /wp:ainoblocks/flexbox --></div>
 <!-- /wp:ainoblocks/flex-item --></div>
