@@ -77,5 +77,5 @@ Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
 
-= 1.0.0 - October 28 2022 =
+= 1.0.0 - Nov 9 2022 =
 * Initial release.

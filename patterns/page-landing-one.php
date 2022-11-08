@@ -411,7 +411,7 @@
 
 <!-- wp:post-terms {"term":"category","textColor":"font-tertiary","fontSize":"text-xxs"} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.1"}},"fontSize":"text-m","fontFamily":"libre-franklin"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.1"}},"fontSize":"text-m"} /-->
 <!-- /wp:post-template --></section>
 <!-- /wp:query --></div>
 <!-- /wp:ainoblocks/grid-item --></div>

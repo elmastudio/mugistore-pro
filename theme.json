@@ -230,17 +230,17 @@
 				},
 				{
 					"slug": "variant-background-primary",
-					"color": "#0E1F2A",
+					"color": "#162426",
 					"name": "Variant Background Primary"
 				},
 				{
 					"slug": "variant-background-secondary",
-					"color": "#0C2937",
+					"color": "#284347",
 					"name": "Variant Background Secondary"
 				},
 				{
 					"slug": "variant-background-tertiary",
-					"color": "#0C455A",
+					"color": "#365E64",
 					"name": "Variant Background Tertiary"
 				},
 				{
@@ -255,7 +255,7 @@
 				},
 				{
 					"slug": "variant-font-tertiary",
-					"color": "#757575",
+					"color": "#9a9a9a",
 					"name": "Variant Text Tertiary"
 				},
 				{
