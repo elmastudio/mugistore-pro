@@ -165,12 +165,12 @@
 				},
 				{
 					"slug": "secondary",
-					"color": "#383838",
+					"color": "#757575",
 					"name": "Brand Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#B4D9C9",
+					"color": "rgba(30, 30, 30, 0.1)",
 					"name": "Brand Tertiary"
 				},
 				{
@@ -220,7 +220,7 @@
 				},
 				{
 					"slug": "input-border",
-					"color": " rgba(0, 0, 0, 0.2)",
+					"color": "rgba(0, 0, 0, 0.2)",
 					"name": "Input Border"
 				},
 				{
@@ -260,7 +260,7 @@
 				},
 				{
 					"slug": "variant-button-color-primary",
-					"color": "#FFFFFF",
+					"color": "#1E1E1E",
 					"name": "Variant Text on*"
 				},
 				{
@@ -275,17 +275,17 @@
 				},
 				{
 					"slug": "variant-primary",
-					"color": "#0C8CE9",
+					"color": "#ffffff",
 					"name": "Variant Brand Primary"
 				},
 				{
 					"slug": "variant-secondary",
-					"color": "#FFFFFF",
+					"color": "#b3b3b3",
 					"name": "Variant Brand Secondary"
 				},
 				{
 					"slug": "variant-tertiary",
-					"color": "#2C2C2C",
+					"color": "rgba(255, 255, 255, 0.05)",
 					"name": "Variant Brand Tertiary"
 				},
 				{
@@ -786,11 +786,11 @@
 	],
 	"templateParts": [
 		{
-			"name": "header-shop-default",
+			"name": "header-shop",
 			"area": "header"
 		},
 		{
-			"name": "footer-shop-default",
+			"name": "footer-shop",
 			"area": "footer"
 		},
 		{

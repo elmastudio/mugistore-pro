@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Theme Sidebar Shop
+ * Title: Sidebar Shop
  * Slug: theme/sidebar-shop
  * Categories: sidebars
  */
@@ -55,12 +55,10 @@
 	<!-- /wp:separator -->
 
 	<!-- wp:ainoblocks/flex-item {"paddingTop":5,"paddingBottom":7} -->
-	<div class="wp-block-ainoblocks-flex-item auto pt__5 pb__7">
-	<!-- wp:heading {"level":3} -->
-	<h3>Search</h3>
-	<!-- /wp:heading -->
-	<!-- wp:woocommerce/product-search {"className":"form-rounded"} /-->
-	</div>
-	<!-- /wp:ainoblocks/flex-item -->
+<div class="wp-block-ainoblocks-flex-item auto pt__5 pb__7"><!-- wp:heading {"level":3,"fontSize":"text-xs"} -->
+<h3 class="has-text-xs-font-size">Search</h3>
+<!-- /wp:heading -->
+<!-- wp:search {"label":"Search","placeholder":"Search products…","buttonText":"Search","query":{"post_type":"product"}} /--></div>
+<!-- /wp:ainoblocks/flex-item -->
 </div>
 <!-- /wp:ainoblocks/flexbox -->

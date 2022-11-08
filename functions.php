@@ -63,9 +63,20 @@ require get_template_directory() . '/inc/block-styles.php';
 function mugistore_register_pattern_categories() {
 
 	$block_pattern_categories = array(
-		'headers'       => array( 'label' => __( 'Headers' ) ),
-		'footers'       => array( 'label' => __( 'Footers' ) ),
-		'sidebars'      => array( 'label' => __( 'Sidebars' ) ),
+		'headers'      => array( 'label' => __( 'Headers' ) ),
+		'footers'      => array( 'label' => __( 'Footers' ) ),
+		'sidebars'     => array( 'label' => __( 'Sidebars' ) ),
+		'pages'        => array( 'label' => __( 'Pages' ) ),
+		'accordions'   => array( 'label' => __( 'Accordions' ) ),
+		'ctas'         => array( 'label' => __( 'CTAs' ) ),
+		'features'     => array( 'label' => __( 'Features' ) ),
+		'heroes'       => array( 'label' => __( 'Heroes' ) ),
+		'texts'        => array( 'label' => __( 'Texts' ) ),
+		'testimonials' => array( 'label' => __( 'Testimonials' ) ),
+		'brands'       => array( 'label' => __( 'Brands' ) ),
+		'galleries'    => array( 'label' => __( 'Galleries' ) ),
+		'queries'      => array( 'label' => __( 'Queries' ) ),
+		'products'     => array( 'label' => __( 'Products' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'mugistore_block_pattern_categories', $block_pattern_categories );
