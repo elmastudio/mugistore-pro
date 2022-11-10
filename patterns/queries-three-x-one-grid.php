@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Queries 6x1 grid
+ * Title: Queries 3x1 grid
  * Slug: theme/queries-three-x-one-grid
  * Categories: queries
  */
