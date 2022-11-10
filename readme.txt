@@ -4,7 +4,7 @@ Tags: blog, block-styles, e-commerce, grid-layout, one-column, two-columns, thre
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,11 @@ License: GPLv3 or later, https://www.gnu.org/licenses/gpl-3.0.html
 Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
+
+= 1.0.1 - Nov 10 2022 =
+* Enhance: Shop archive templates.
+* Enhance: Shop sidebar pattern.
+* Enhance: Featured post pattern.
 
 = 1.0.0 - Nov 9 2022 =
 * Initial release.
