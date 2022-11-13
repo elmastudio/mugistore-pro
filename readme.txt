@@ -77,10 +77,14 @@ Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
 
-= 1.0.1 - Nov 10 2022 =
+= 1.0.1 =
+* Released: November 13, 2022
+
 * Enhance: Shop archive templates.
 * Enhance: Shop sidebar pattern.
 * Enhance: Featured post pattern.
 
-= 1.0.0 - Nov 9 2022 =
+= 1.0.0 =
+* Released: November 9, 2022
+
 * Initial release.
