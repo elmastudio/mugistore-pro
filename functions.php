@@ -135,3 +135,17 @@ function mugistore_register_required_plugins() {
 
 	tgmpa( $plugins, $config );
 }
+
+/**
+* Theme Setup Wizard.
+*/
+require_once get_parent_theme_file_path( '/inc/merlin/vendor/autoload.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/class-merlin.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/merlin-config.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/merlin-filters.php' );
+
+// Theme Admin Page
+require_once get_template_directory() . '/inc/theme-demo-import.php';
+
+//Stop WooCommerce redirect on activation MerlinWP
+add_filter( 'woocommerce_enable_setup_wizard', '__return_false' );
