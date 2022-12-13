@@ -342,6 +342,16 @@
 					"slug": "variant-rating-stars",
 					"color": "#FFFFFF",
 					"name": "Variant Rating Stars"
+				},
+				{
+					"color": "#000000",
+					"name": "Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Light",
+					"slug": "light"
 				}
 			],
 			"gradients": [{

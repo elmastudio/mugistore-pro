@@ -4,7 +4,7 @@ Tags: blog, block-styles, e-commerce, grid-layout, one-column, two-columns, thre
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 1.0.2
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,10 +77,13 @@ Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
 
-= 1.0.2 =
-* Released: December 13, 2022
+= 1.1.0 =
+* Released: December 14, 2022
 
+* New: Default header.
 * Bugfix: Blank template.
+* Enhance: Light and Dark default colors.
+* Enhance: Theme CSS.
 
 = 1.0.1 =
 * Released: November 13, 2022
