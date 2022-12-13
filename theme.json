@@ -45,7 +45,7 @@
 					"name": "24px"
 				},
 				{
-					"size": "cclamp(1rem, 0.5965rem + 1.7544vw, 2rem)",
+					"size": "clamp(1rem, 0.5965rem + 1.7544vw, 2rem)",
 					"slug": "7",
 					"name": "32px"
 				},
