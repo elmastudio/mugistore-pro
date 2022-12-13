@@ -80,6 +80,8 @@ Source: https://github.com/richtabor/MerlinWP
 = 1.0.2 =
 * Released: December 13, 2022
 
+* Bugfix: Blank template.
+
 = 1.0.1 =
 * Released: November 13, 2022
 
