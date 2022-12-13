@@ -797,11 +797,11 @@
 	],
 	"templateParts": [
 		{
-			"name": "header-shop",
+			"name": "header",
 			"area": "header"
 		},
 		{
-			"name": "footer-shop",
+			"name": "footer",
 			"area": "footer"
 		},
 		{

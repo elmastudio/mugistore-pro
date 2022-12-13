@@ -114,7 +114,7 @@ function mugistore_register_required_plugins() {
 		array(
 			'name'      => 'Aino Blocks - Gutenberg Page Builder Blocks',
 			'slug'      => 'aino-blocks',
-			'required'  => false,
+			'required'  => true,
 		),
 	);
 

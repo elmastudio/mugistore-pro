@@ -81,6 +81,7 @@ Source: https://github.com/richtabor/MerlinWP
 * Released: December 14, 2022
 
 * New: Default header.
+* Enhance: Provide default Header and Footer template parts, for users who have not installed the AinoBlocks block plugin yet.
 * Bugfix: Blank template.
 * Enhance: Light and Dark default colors.
 * Enhance: Theme CSS.
