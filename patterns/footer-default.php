@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Shop Footer (default)
- * Slug: theme/footer-shop-default
+ * Slug: theme/footer-default
  * Categories: footers
  * Block Types: core/template-part/footer
  */

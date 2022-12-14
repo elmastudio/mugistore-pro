@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Shop (default)
- * Slug: theme/header-shop-default
+ * Slug: theme/header-default
  * Categories: headers
  * Block Types: core/template-part/header
  */

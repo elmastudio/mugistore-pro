@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header Shop with 2 Banners
- * Slug: theme/header-shop-2-banners
+ * Title: Header Shop with 2 Banners (default)
+ * Slug: theme/header-shop-2-banners-default
  * Categories: headers
  * Block Types: core/template-part/header
  */

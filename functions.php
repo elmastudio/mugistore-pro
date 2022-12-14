@@ -116,6 +116,12 @@ function mugistore_register_required_plugins() {
 			'slug'      => 'aino-blocks',
 			'required'  => true,
 		),
+
+		array(
+			'name'      => 'WooCommerce',
+			'slug'      => 'woocommerce',
+			'required'  => true,
+		),
 	);
 
 	/*

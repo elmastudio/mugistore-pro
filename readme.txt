@@ -80,11 +80,12 @@ Source: https://github.com/richtabor/MerlinWP
 = 1.1.0 =
 * Released: December 14, 2022
 
-* New: Default header.
+* New: Default Header and Footer pattern.
 * Enhance: Provide default Header and Footer template parts, for users who have not installed the AinoBlocks block plugin yet.
 * Bugfix: Blank template.
 * Enhance: Light and Dark default colors.
 * Enhance: Theme CSS.
+* Enhance: Required plugin list.
 
 = 1.0.1 =
 * Released: November 13, 2022
