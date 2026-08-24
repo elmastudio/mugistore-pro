@@ -146,10 +146,21 @@ function mugistore_register_required_plugins() {
 /**
 * Theme Setup Wizard.
 */
-require_once get_parent_theme_file_path( '/inc/merlin/vendor/autoload.php' );
-require_once get_parent_theme_file_path( '/inc/merlin/class-merlin.php' );
-require_once get_parent_theme_file_path( '/inc/merlin/merlin-config.php' );
-require_once get_parent_theme_file_path( '/inc/merlin/merlin-filters.php' );
+/* The wizard is an ADMIN screen, and its config file builds a big array of
+   translated strings the moment it is required. Loaded at file scope that
+   ran on every front-end request too, before init, which WordPress 6.7
+   reports as loading translations too early. It now loads in the admin
+   only, on init, where its strings are both wanted and allowed. */
+function mugistore_load_setup_wizard() {
+	if ( ! is_admin() ) {
+		return;
+	}
+	require_once get_parent_theme_file_path( '/inc/merlin/vendor/autoload.php' );
+	require_once get_parent_theme_file_path( '/inc/merlin/class-merlin.php' );
+	require_once get_parent_theme_file_path( '/inc/merlin/merlin-config.php' );
+	require_once get_parent_theme_file_path( '/inc/merlin/merlin-filters.php' );
+}
+add_action( 'init', 'mugistore_load_setup_wizard' );
 
 // Theme Admin Page
 require_once get_template_directory() . '/inc/theme-demo-import.php';
