@@ -19,6 +19,28 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Merlin.
  */
 class Merlin {
+	/* Declared explicitly: PHP 8.2 deprecates creating properties on the fly. */
+	/**
+	 * Hook suffix.
+	 *
+	 * @var mixed
+	 */
+	protected $hook_suffix;
+
+	/**
+	 * Ready big button url.
+	 *
+	 * @var mixed
+	 */
+	protected $ready_big_button_url;
+
+	/**
+	 * Slug.
+	 *
+	 * @var mixed
+	 */
+	protected $slug;
+
 	/**
 	 * Current theme.
 	 *
