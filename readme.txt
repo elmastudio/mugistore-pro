@@ -75,6 +75,10 @@ Copyright Rich Tabor
 License: GPLv3 or later, https://www.gnu.org/licenses/gpl-3.0.html
 Source: https://github.com/richtabor/MerlinWP
 
+== Updates ==
+
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.
+
 == Changelog ==
 
 = 1.1.1 =
